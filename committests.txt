@@ -19,5 +19,6 @@ class Calculator {
 $calculator = new Calculator();
 echo $calculator->add(5, 3, 10);      
 echo $calculator->subtract(5, 3, 1);
+echo $calculator->multiply(2, 3, 4);
 
 ?>
