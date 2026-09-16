@@ -5,14 +5,19 @@ second line
 
 <?php
 
-function addNumbers($a, $b) {
-    return $a + $b;
+class Calculator {
+    public function add($a, $b) {
+        return $a + $b;
+    }
+
+    public function subtract($a, $b) {
+        return $a - $b;
+    }
 }
 
-function subtractNumbers($a, $b) {
-    return $a - $b;
-}
+$calculator = new Calculator();
 
-echo addNumbers(5, 3);      
-echo subtractNumbers(5, 3);
+echo $calculator->add(5, 3);       
+echo $calculator->subtract(5, 3); 
+
 ?>
