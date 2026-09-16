@@ -11,8 +11,8 @@ class Calculator {
         return $a - $b - $c;
     }
     // Function for multiplying 2 numbers
-	 public function multiply($a, $b) {
-        return $a * $b;
+	 public function multiply($a, $b, $c)
+        return $a * $b * $c;
     }
 }
 
