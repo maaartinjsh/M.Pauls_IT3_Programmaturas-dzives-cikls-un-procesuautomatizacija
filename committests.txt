@@ -3,8 +3,8 @@
 // Calculator object
 class Calculator {
 	//function for adding  2 numbers
-    public function add($a, $b) {
-        return $a + $b;
+    public function add($a, $b, $c) {
+        return $a + $b + $c;
     }
 	//function for subtracting  2 numbers
     public function subtract($a, $b) {
@@ -16,7 +16,7 @@ class Calculator {
 }
 
 $calculator = new Calculator();
-echo $calculator->add(5, 3);      
+echo $calculator->add(5, 3, 10);      
 echo $calculator->subtract(5, 3); 
 
 ?>
