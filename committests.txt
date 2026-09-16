@@ -2,6 +2,7 @@
 <?php
 // Calculator object
 class Calculator {
+	//function for adding  2 numbers
     public function add($a, $b) {
         return $a + $b;
     }
@@ -12,7 +13,6 @@ class Calculator {
 }
 
 $calculator = new Calculator();
-
 echo $calculator->add(5, 3);      
 echo $calculator->subtract(5, 3); 
 
