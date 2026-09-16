@@ -1,15 +1,12 @@
-first line.....
-second line
-3rd line
-4th line
 
 <?php
 // Calculator object
 class Calculator {
+	//function for adding  2 numbers
     public function add($a, $b) {
         return $a + $b;
     }
-
+	//function for subtracting  2 numbers
     public function subtract($a, $b) {
         return $a - $b;
     }
@@ -19,7 +16,6 @@ class Calculator {
 }
 
 $calculator = new Calculator();
-
 echo $calculator->add(5, 3);      
 echo $calculator->subtract(5, 3); 
 
