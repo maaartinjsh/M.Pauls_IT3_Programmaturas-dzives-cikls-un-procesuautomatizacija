@@ -9,7 +9,10 @@ function addNumbers($a, $b) {
     return $a + $b;
 }
 
-$result = addNumbers(5, 3);
+function subtractNumbers($a, $b) {
+    return $a - $b;
+}
 
-echo $result;
+echo addNumbers(5, 3);      
+echo subtractNumbers(5, 3);
 ?>
