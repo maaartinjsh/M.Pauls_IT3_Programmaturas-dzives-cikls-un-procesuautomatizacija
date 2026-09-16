@@ -21,8 +21,14 @@ class Calculator {
 }
 
 $calculator = new Calculator();
-echo $calculator->add(5, 3, 10);      
+echo $calculator->add(5, 3, 10);
+echo "\n";
+
 echo $calculator->subtract(5, 3, 1);
+echo "\n";
+
 echo $calculator->multiply(2, 3, 4);
+echo "\n";
+
 echo $calculator->divide(10, 2);
 ?>
