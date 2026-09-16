@@ -21,6 +21,7 @@ class Calculator {
 }
 
 $calculator = new Calculator();
+//display calculator results
 echo $calculator->add(5, 3, 10);
 echo "\n";
 
