@@ -2,11 +2,11 @@
 <?php
 // Calculator object
 class Calculator {
-	//function for adding  2 numbers
+	//function for adding 3 numbers
     public function add($a, $b, $c) {
         return $a + $b + $c;
     }
-	//function for subtracting  2 numbers
+	//function for subtracting 3 numbers
     public function subtract($a, $b, $c) {
         return $a - $b - $c;
     }
