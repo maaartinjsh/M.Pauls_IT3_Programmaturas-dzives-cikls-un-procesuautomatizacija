@@ -10,6 +10,7 @@ class Calculator {
     public function subtract($a, $b, $c) {
         return $a - $b - $c;
     }
+    // Function for multiplying 2 numbers
 	 public function multiply($a, $b) {
         return $a * $b;
     }
